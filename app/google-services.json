@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "680462805496",
+    "firebase_url": "https://guest-431f8.firebaseio.com",
+    "project_id": "guest-431f8",
+    "storage_bucket": "guest-431f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680462805496:android:c0b06ccd556a21e6794e0d",
+        "android_client_info": {
+          "package_name": "com.kipruto.guest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680462805496-kk1geatdkj4rm729jvn4rp9jng4igbhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtjftPxrSos-iZDABCbTyr-1uoN4w9DsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680462805496-kk1geatdkj4rm729jvn4rp9jng4igbhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

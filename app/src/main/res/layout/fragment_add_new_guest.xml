@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:context=".ui.add_new_guest.Add_New_GuestFragment">
+
+        <ScrollView
+            android:id="@+id/profilescrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="35dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/profilepicadd"
+                    android:src="@drawable/man"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00"
+                    android:textStyle="bold"
+                    android:id="@+id/timeset"
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name:"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:id="@+id/firstname"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fname"
+                    android:hint="firstname"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name:"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:id="@+id/lastname"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="lastname"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:id="@+id/lname"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:id="@+id/email"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"/>
+                <EditText
+                    android:id="@+id/mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:hint="email"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number:"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:id="@+id/namba"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"/>
+                <EditText
+                    android:id="@+id/cnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:hint="phonenumber"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:id="@+id/addres"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="address"
+                    android:id="@+id/mage"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comment:"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:id="@+id/comment"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"/>
+                <EditText
+                    android:id="@+id/cmment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:hint="comment"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save Data"
+                    android:id="@+id/save_button"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
